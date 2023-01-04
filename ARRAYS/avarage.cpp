@@ -6,7 +6,7 @@ int main(){
     int avg;
     cout<<"Enter the array elements : "<<endl;
     for(int i=0;i<9;i++){
-        cin>>arry[i];
+        cin>>arr[i];
         sum=sum+arr[i];
     }
     cout<<"The sum of the arry elements "<<sum<<endl;
