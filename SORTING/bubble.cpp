@@ -18,7 +18,7 @@ int main(){
     }
     cout<<"The new sorted arry is : "<<" ";
     for(int j=0;j<10;j++){
-        cout<<arr[j];
+        cout<<" "<<arr[j];
     }
 }
 
