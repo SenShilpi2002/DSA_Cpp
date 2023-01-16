@@ -9,7 +9,7 @@ int main()
     cin >> n;
     vector<int> a;
     cout << "Enter the array elements: ";
-    for (i = 0; i < n; n++)
+    for (i = 0; i < n; i++)
     {
         cin >> x;
         a.push_back(x);
@@ -27,7 +27,7 @@ int main()
     }
     cout<<"The sorted array is like : ";
     for(i=0;i<n;i++){
-        cin>>a[j];
+        cout<<" "<<a[i];
     }
     return 0;
 }
